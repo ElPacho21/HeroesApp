@@ -1,3 +1,14 @@
+# HeroesApp
+
+**HeroesApp** es una aplicación web para explorar héroes de cómics de DC y Marvel. Desarrollada con **React**, **TypeScript**, y tecnologías modernas como **Vite**, **Redux**, y **Bootstrap**.
+
+
+## 📦 Instalación
+1. Clona este repositorio.  
+   ```bash
+   git clone https://github.com/usuario/HeroesApp.git
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
