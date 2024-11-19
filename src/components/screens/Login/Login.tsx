@@ -28,7 +28,7 @@ export const Login = () => {
         );
         if(userFound) {
             dispatch(setLogin(user));
-            navigate("/");
+            navigate("/home");
         } else{
             alert("Usuario o contraseña incorrectos");
         };

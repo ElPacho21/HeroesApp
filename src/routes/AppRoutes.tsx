@@ -12,9 +12,9 @@ export const AppRoutes = () => {
           {isLogged ?
           <Route path="/*" element={<ProtectedRoutes />}/>
           :
-          <Route path="/*" element={<Navigate to={"/login"} />}/>
+          <Route path="/*" element={<Navigate to={"/"} />}/>
           }
-            <Route path="/login" element={<Login />}/>
+            <Route path="/" element={<Login />}/>
         </Routes>
     </>
   )

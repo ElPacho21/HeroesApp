@@ -12,7 +12,7 @@ export const Header = () => {
     <Navbar bg="dark" data-bs-theme="dark">
         <Container>
           <Navbar.Brand >
-            <Link to={"/"} className="nav-link">Inicio</Link>
+            <Link to={"/home"} className="nav-link">Inicio</Link>
           </Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Item>
